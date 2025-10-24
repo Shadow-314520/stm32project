@@ -1,0 +1,34 @@
+# 编译中间文件与输出  
+*.o          # 目标文件  
+*.obj        # 编译对象文件  
+*.hex        # 十六进制固件  
+*.axf        # 可执行文件（ARM格式）  
+*.map        # 链接映射文件  
+*.lst        # 列表文件  
+*.dep        # 依赖文件  
+*.crf        # 交叉引用文件  
+*.lnp        # 链接器输出  
+*.sct        # 分散加载脚本  
+*.iex        # IAR工程相关  
+
+# Keil IDE配置文件  
+*.uvoptx     # Keil工程选项（用户特定）  
+*.uvguix*    # Keil用户界面配置（含用户名）  
+*.ini        # 初始化文件  
+*.scvd       # 调试配置文件  
+*.administrator # Keil管理员配置  
+DebugConfig/ # 调试配置目录  
+OBJ/         # 编译输出目录（Keil默认）  
+LIST/        # 列表文件目录  
+
+# CubeMX相关  
+*.ioc        # CubeMX工程文件（可选，若需共享则不忽略）  
+*.mex        # CubeMX生成的Makefile扩展  
+
+# 系统与临时文件  
+.DS_Store    # macOS隐藏文件  
+Thumbs.db    # Windows缩略图缓存  
+*~           # 临时文件（如编辑器备份）  
+
+# 排除规则（如需跟踪特定文件）  
+ 
